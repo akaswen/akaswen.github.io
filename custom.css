@@ -1,0 +1,14 @@
+#index img {
+  max-height: 300px; }
+#index .media {
+  background: linear-gradient(to right, white, rgba(50, 50, 50, 0.5));
+  box-shadow: 1px 1px 5px 3px; }
+  @media screen and (max-width: 700px) {
+    #index .media h1 {
+      font-size: 4vw; }
+    #index .media h2 {
+      font-size: 3vw; }
+    #index .media p {
+      font-size: 2vw; } }
+
+/*# sourceMappingURL=custom.css.map */
