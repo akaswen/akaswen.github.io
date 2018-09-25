@@ -1,3 +1,6 @@
+body {
+  background-color: rgba(230, 233, 239, 0.3); }
+
 #index img {
   max-height: 300px; }
 #index .media {
@@ -19,5 +22,13 @@
       height: 100px; } }
 #about p {
   line-height: 2; }
+
+#portfolio img {
+  width: 200px;
+  margin-right: 50px;
+  border: 1px solid #212529; }
+@media screen and (max-width: 600px) {
+  #portfolio h4 {
+    font-size: 1em; } }
 
 /*# sourceMappingURL=custom.css.map */

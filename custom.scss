@@ -1,3 +1,10 @@
+$header-color: rgb(33, 37, 41);
+$body-color: rgba(230, 233, 239, 0.3);
+
+body {
+	background-color: $body-color;
+}
+
 #index {
 	img {
 		max-height: 300px;
@@ -29,5 +36,18 @@
 	}
 	p {
 		line-height: 2;
+	}
+}
+
+#portfolio {
+	img {
+		width: 200px;
+		margin-right: 50px;
+		border: 1px solid $header-color;
+	}
+	@media screen and (max-width: 600px) {
+		h4 {
+			font-size: 1em;
+		}
 	}
 }
