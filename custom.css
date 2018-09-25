@@ -11,4 +11,13 @@
     #index .media p {
       font-size: 2vw; } }
 
+#about img {
+  height: 150px;
+  float: left; }
+  @media screen and (max-width: 600px) {
+    #about img {
+      height: 100px; } }
+#about p {
+  line-height: 2; }
+
 /*# sourceMappingURL=custom.css.map */
