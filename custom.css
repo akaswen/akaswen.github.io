@@ -2,23 +2,22 @@ body {
   background-color: rgba(230, 233, 239, 0.3); }
 
 .divider {
-  height: 50px; }
+  height: 110px; }
   @media screen and (max-width: 700px) {
     .divider {
-      height: 80px; } }
+      height: 140px; } }
 
-#index img {
-  max-height: 300px; }
-#index .media {
-  background: linear-gradient(to right, white, rgba(50, 50, 50, 0.5));
-  box-shadow: 1px 1px 5px 3px; }
-  @media screen and (max-width: 700px) {
-    #index .media h1 {
-      font-size: 4vw; }
-    #index .media h2 {
-      font-size: 3vw; }
-    #index .media p {
-      font-size: 2vw; } }
+#index {
+  max-width: 500px;
+  margin: 0 auto; }
+  #index img {
+    height: 35vw;
+    max-height: 300px; }
+  #index .col {
+    background: linear-gradient(to right, white, rgba(50, 50, 50, 0.5));
+    box-shadow: 1px 1px 5px 3px; }
+  #index p {
+    text-shadow: 2px 2px 2px black; }
 
 #about img {
   height: 400px;
